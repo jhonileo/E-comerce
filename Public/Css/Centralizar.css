@@ -1,0 +1,48 @@
+.log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  color: black;
+}
+body {
+  background-color: lightblue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+.log{
+  text-align: center;
+  margin-top: 50px;
+}
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+button {
+  display: inline-block;
+  margin: 10px auto;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff5733;
+
+  border: none; /* Remove a borda */
+  padding: 20px 40px; /* Espaçamento interno (ajuste conforme necessário) */
+  cursor: pointer; /* Transforma o cursor em uma mão ao passar o mouse */
+}
+button:hover {
+    background-color: white; /* Cor do botão ao passar o mouse */
+}
+label {
+    display: inline-block;
+    width: 250px; /* Largura do rótulo */
+}
+
+input, textarea {
+    width: 200px; /* Largura dos campos de entrada */
+    height: 25px
+}

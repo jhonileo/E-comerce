@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="/Public/Css/carrinho.css" />
+    <link rel="stylesheet" href="/Public/Css/cabecalho.css" />
+    <link rel="shortcut icon" href="/Public/Img/logo.png">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header-top">
+      <div class="logo-search">
+        <a href="/App/Inicio/Inicio.php">
+          <div class="logo">
+              <img src="/Public/Img/logo.png" alt="RR_Stilo_Fashion">
+          </div>
+        </a>
+
+      </div>
+      </header>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="/Public/Img/Produtos/cropped trico.png" alt="" />
+                    <div class="info">
+                      <div class="name">Cropped Trico modal</div>
+                      <div class="category">Cropped</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 129,90</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 259.80</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="/Public/Img/Produtos/Macaquinho.png" alt="" />
+                    <div class="info">
+                      <div class="name">Macaquinho Duna</div>
+                      <div class="category">Macaquinho</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 79,90</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>1</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 79,90</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <header>Resumo da compra</header>
+            <div class="info">
+              <div><span>Sub-total: </span><span>R$ 339,90</span><br></div>
+              <div><span>Frete </span><span>Gratuito</span></div>
+              <div>
+                <br>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <footer>
+              <span>Total</span>
+              <span>R$ 339,70</span>
+            </footer>
+          </div>
+          <button><a href="/App/Pagamento/pagamento.html" > Finalizar Compra</a></button>
+          
+        </aside>
+      </div>
+      
+    </main>
+    <div class="bottom-bar">
+        <div class="footer-info">
+            <p>© 2023 RR Estilo Fashion</p>
+            <h4>Atendimento</h4>
+          <h3> Roberta  | Fone: (61) 98384-7912</h3>
+        </div>
+       <div class="social">
+        <a href="https://instagram.com/rr_stilofashion?igshid=MzRlODBiNWFlZA==">
+        <img src="/Public/Img/instagram.png" alt="Instagram" width="50" height="50" >
+    </a>
+    <a href="">
+        <img src="/Public/Img/whatsapp.png" alt="whatsapp" width="50" height="50" >
+    </a>
+       </div>
+    </div>
+
+    
+  </body>
+</html>

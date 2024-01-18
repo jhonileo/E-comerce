@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/Public/Css/Cadastro2.css">
+    <link rel="shortcut icon" href="/Public/Img/logo.png">
+</head>
+<body>
+    <div class="top-bar">
+      <a href="/App/Inicio/Inicio.html">
+        <div class="logo">
+            <img src="/Public/Img/logo.png" alt="RR_Stilo_Fashion">
+        </div>
+      </a>
+    </div>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="content">
+        <div class="form-container">
+            <h2>Crie sua Conta</h2>
+            <form action="/App/Login/Teste.php" method="POST">
+                <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                           title="A senha deve conter pelo menos 8 caracteres, incluindo pelo menos uma letra maiúscula, uma letra minúscula e um número" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </div>
+
+                <button id="enviar" type="submit" class="submit-button">Cadastrar</button>
+              <script src="/Public/JS/botão.js"></script>
+                <button type="reset" class="reset-button">Limpar</button>
+            </form>
+        </div>
+    </div>
+    <br>
+  <br>
+  <br>
+  <br>
+  <div class="bottom-bar">
+      <div class="footer-info">
+          <p>© 2023 RR Estilo Fashion</p>
+          <h4>Atendimento</h4>
+        <h3> Roberta  | Fone: (61) 98384-7912</h3>
+      </div>
+     <div class="social">
+      <a href="https://instagram.com/rr_stilofashion?igshid=MzRlODBiNWFlZA==">
+      <img src="/Public/Img/instagram.png" alt="Instagram" width="50" height="50" >
+  </a>
+  <a href="">
+      <img src="/Public/Img/whatsapp.png" alt="whatsapp" width="50" height="50" >
+  </a>
+     </div>
+  </div>
+</body>
+</html>
